@@ -1,0 +1,55 @@
+.edit-user-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-user-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  .edit-user-form .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-user-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+
+  button.cancel {
+    color: #333; /* Texto oscuro */
+    padding: 8px 16px;
+  }
+  
+  button.cancel:hover {
+    background-color: #d6d6d6; /* Gris más oscuro al pasar el mouse */
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: center;
+  }
