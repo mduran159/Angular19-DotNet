@@ -1,1 +1,0 @@
--Agregar manejo de errores, hacer el catch en el backend y mostrar msj en UI
