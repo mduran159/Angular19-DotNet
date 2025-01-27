@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { UserListComponent } from './user-list/user-list.component';
-import { UserFormComponent } from './user-form/user-form.component';
+import { UserFormComponent } from './features/users/user-form/user-form.component';
+import { UserListComponent } from './features/users/user-list/user-list.component';
 
 export const routes: Routes = [
     {
